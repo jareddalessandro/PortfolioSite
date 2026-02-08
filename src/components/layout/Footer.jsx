@@ -12,7 +12,7 @@ export default function Footer() {
     <footer className="border-t border-border py-8">
       <div className="mx-auto flex max-w-6xl flex-col items-center gap-4 px-4 sm:flex-row sm:justify-between sm:px-6 lg:px-8">
         <p className="text-sm text-text-muted">
-          &copy; {new Date().getFullYear()} {personal.name}. All rights reserved.
+          &copy; {new Date().getFullYear()} Syncope Industries LLC. All rights reserved.
         </p>
         <div className="flex gap-4">
           {socialIcons.map(({ href, icon: Icon, label }) => (
