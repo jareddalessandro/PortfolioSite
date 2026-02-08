@@ -1,18 +1,18 @@
 export const skillCategories = [
   {
     title: 'Languages',
-    skills: ['JavaScript', 'TypeScript', 'Python', 'Java', 'C#', 'SQL'],
+    skills: ['TypeScript', 'Python', 'Java', 'C#', 'SQL'],
   },
   {
-    title: 'Frontend',
-    skills: ['React', 'Next.js', 'Tailwind CSS', 'HTML/CSS', 'Redux', 'Vue.js'],
+    title: 'Frameworks',
+    skills: ['React', 'Blazor', 'Tailwind CSS', 'HTML/CSS', 'Redux', 'Vue.js'],
   },
   {
     title: 'Backend',
-    skills: ['Node.js', 'Express', 'Django', 'REST APIs', 'GraphQL', 'PostgreSQL'],
+    skills: ['Node.js', 'Django', 'REST APIs', 'FastAPI', 'PostgreSQL', 'Oracle', 'SQL Server'],
   },
   {
     title: 'Tools & DevOps',
-    skills: ['Git', 'Docker', 'AWS', 'CI/CD', 'Linux', 'Figma'],
+    skills: ['Git', 'Docker', 'AWS', 'Azure', 'CI/CD', 'Ollama', 'Splunk', 'VSphere'],
   },
 ]
