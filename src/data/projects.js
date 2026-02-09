@@ -38,9 +38,9 @@ export const projects = [
     github: 'https://github.com/jareddalessandro/RecipeMe',
     demo: null,
     images: [
-      '/recipeme/Screenshot_1770011052.png',
-      '/recipeme/Screenshot_1770011077.png',
-      '/recipeme/Screenshot_1770011095.png',
+      '/recipeme/Screenshot_1770012827.png',
+      '/recipeme/Screenshot_1770012839.png',
+      '/recipeme/Screenshot_1770012848.png',
     ],
     imageContain: true,
     gradient: 'from-green-500/20 to-emerald-500/20',
