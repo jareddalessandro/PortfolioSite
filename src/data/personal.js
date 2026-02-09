@@ -1,11 +1,13 @@
 export const personal = {
   name: 'Jared Dalessandro',
   role: 'Programmer/Analyst',
-  tagline: 'Building clean, performant software that solves real problems.',
-  bio: `I'm a software engineer who enjoys building things that live on the internet.
-I focus on creating clean, accessible, and performant applications with attention to detail
-and user experience. When I'm not coding, you'll find me exploring new technologies,
-contributing to open source, or enjoying the outdoors.`,
+  tagline: 'I want to learn everything so I can build anything.',
+  bio: `I'm a software engineer with extensive experience in developing, integrating, and supporting applications. 
+  I have consistently delivered high-quality solutions that enhance productivity, efficiency, and security.
+  My goal is to exploit my technical expertise and project management experience to contribute to 
+  innovative projects that create real impact and to be as useful as possible to my team.
+  Currently, I work on the Engineering Applications team at TEP, where I develop, maintain, or implement applications 
+  for the company's various engineering, environmental, fleet, and safety departments.`,
   email: 'jareddalessandro1@gmail.com',
   location: 'AZ, United States',
   resumeUrl: '/resume.pdf',

@@ -3,9 +3,7 @@ import { personal } from '../../data/personal'
 
 const socialIcons = [
   { href: personal.social.github, icon: FiGithub, label: 'GitHub' },
-  { href: personal.social.linkedin, icon: FiLinkedin, label: 'LinkedIn' },
-  { href: personal.social.twitter, icon: FiTwitter, label: 'Twitter' },
-]
+  { href: personal.social.linkedin, icon: FiLinkedin, label: 'LinkedIn' }]
 
 export default function Footer() {
   return (
