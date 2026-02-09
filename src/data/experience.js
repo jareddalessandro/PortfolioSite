@@ -6,11 +6,11 @@ export const experience = [
     location: 'Tucson, AZ',
     period: 'Sep 2025 — Present',
     description: [
-      'Serving as Team-Lead for application development and infrastructure management',
+      'Serving as Team-Lead',
       'Assumed Project Manager role mid-way through a new implementation',
       'Continued to perform all functions of the previous role including development, integration, and support',
     ],
-    tech: ['C#', '.NET', 'Blazor', 'PowerShell', 'Python', 'SQL Server', 'Docker', 'Project Management'],
+    tech: ['C#', '.NET', 'Blazor', 'PowerShell', 'Python', 'SQL Server', 'Docker', 'Project Management', 'CIP'],
   },
   {
     id: 2,
@@ -26,7 +26,7 @@ export const experience = [
       'Led server migrations and upgrades, both CIP and non-CIP',
       'Trained new-hires on internal systems, processes and CIP regulation',
     ],
-    tech: ['.NET', 'Blazor', 'PowerShell', 'Docker', 'Ollama', 'Splunk', 'VSphere', 'SQL Server', 'Project Management'],
+    tech: ['.NET', 'Blazor', 'PowerShell', 'Docker', 'Ollama', 'Splunk', 'VSphere', 'SQL Server', 'Project Management', 'CIP'],
   },
   {
     id: 3,
@@ -42,9 +42,9 @@ export const experience = [
       'Developed application integrations using Python and PowerShell',
       'Updated and maintained C#/ASP.NET web applications',
       'Provided advanced support for over 100 applications',
-      'Acted as the company\'s Subject Matter Expert for Vault Professional',
+      'Subject Matter Expert for Autodesk Vault Professional',
     ],
-    tech: ['Java', 'Spring', 'Oracle', 'Python', 'PowerShell', 'C#', 'ASP.NET', 'Vault Pro SDK', 'Project Management'],
+    tech: ['Java', 'Spring', 'Oracle', 'Python', 'PowerShell', 'C#', 'ASP.NET', 'Vault Pro SDK', 'Project Management', 'CIP'],
   },
   {
     id: 4,

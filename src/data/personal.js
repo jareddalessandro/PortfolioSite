@@ -1,6 +1,6 @@
 export const personal = {
   name: 'Jared Dalessandro',
-  role: 'Software Engineer',
+  role: 'Programmer/Analyst',
   tagline: 'Building clean, performant software that solves real problems.',
   bio: `I'm a software engineer who enjoys building things that live on the internet.
 I focus on creating clean, accessible, and performant applications with attention to detail

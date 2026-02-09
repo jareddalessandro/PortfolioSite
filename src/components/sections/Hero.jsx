@@ -23,7 +23,7 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
         >
-          <p className="mb-4 font-mono text-sm text-accent">Hi, my name is</p>
+          <p className="mb-4 font-mono text-lg text-accent">Hi, my name is</p>
         </motion.div>
 
         <motion.h1

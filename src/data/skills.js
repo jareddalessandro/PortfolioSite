@@ -1,18 +1,19 @@
 export const skillCategories = [
   {
-    title: 'Languages',
-    skills: ['TypeScript', 'Python', 'Java', 'C#', 'SQL'],
+    title: 'Languages / Frameworks',
+    skills: ['TypeScript', 'Python', 'Java', 'C#', 'SQL', 'PowerShell', 'React', 'Blazor', 'MudBlazor', 'Tailwind CSS', 'Flutter'],
   },
-  {
-    title: 'Frameworks',
-    skills: ['React', 'Blazor', 'Tailwind CSS', 'HTML/CSS', 'Redux', 'Vue.js'],
-  },
+
   {
     title: 'Backend',
-    skills: ['Node.js', 'Django', 'REST APIs', 'FastAPI', 'PostgreSQL', 'Oracle', 'SQL Server'],
+    skills: ['C#', 'Django', 'REST APIs', 'FastAPI', 'PostgreSQL', 'Oracle', 'SQL Server'],
   },
   {
-    title: 'Tools & DevOps',
-    skills: ['Git', 'Docker', 'AWS', 'Azure', 'CI/CD', 'Ollama', 'Splunk', 'VSphere'],
+    title: 'Tools & Platforms',
+    skills: ['Git', 'Docker', 'AWS', 'Toad', 'Azure', 'Jenkins CI/CD', 'Ollama', 'Splunk', 'VSphere'],
+  },
+  {
+    title: 'Other',
+    skills: ['CIP Regulation', 'Agile', 'WaterFall', 'Autodesk Vault Pro SDK', 'ServiceNow API', 'Claude Code', 'OpenAI Codex'],
   },
 ]
