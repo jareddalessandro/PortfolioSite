@@ -8,9 +8,9 @@ export const projects = [
     github: 'https://github.com/jareddalessandro/StasisDrive',
     demo: null, // Set to null since domain expired
     images: [
-      '/projects/comparefi/homepage.png',
-      '/projects/comparefi/results1.png',
-      '/projects/comparefi/results4.png'
+      '/stasisdrive/launchpage1.png',
+      '/stasisdrive/dashboard1.png',
+      '/stasisdrive/launchpage2.png',
     ],
     gradient: 'from-cyan-500/20 to-blue-500/20', // Fallback if no images
   },
@@ -18,11 +18,15 @@ export const projects = [
     id: 2,
     title: 'CompareFi',
     description:
-      'A full-stack webapp enabling users to compare their financial metrics with that of their demographic and geographic peers, making use of the Federal Reserve API and the annual Census data.',
+      'A full-stack webapp enabling users to compare their financial metrics with that of their demographic and geographic peers, making use of the Federal Reserve API and the annual Census data and a custom made ingestion engine to parse and store the data in a SQL Server database.',
     tech: ['C#', "Blazor", 'MudBlazor', 'Azure', 'SQL Server'],
     github: 'https://github.com/jareddalessandro/CompareFi',
     demo: null,
-    images: [],
+    images: [
+      '/comparefi/homepage.png',
+      '/comparefi/results1.png',
+      '/comparefi/results4.png'
+    ],
     gradient: 'from-purple-500/20 to-pink-500/20',
   },
   {
@@ -33,7 +37,12 @@ export const projects = [
     tech: ['Flutter', 'Dart'],
     github: 'https://github.com/jareddalessandro/RecipeMe',
     demo: null,
-    images: [],
+    images: [
+      '/recipeme/Screenshot_1770011052.png',
+      '/recipeme/Screenshot_1770011077.png',
+      '/recipeme/Screenshot_1770011095.png',
+    ],
+    imageContain: true,
     gradient: 'from-green-500/20 to-emerald-500/20',
   },
   {

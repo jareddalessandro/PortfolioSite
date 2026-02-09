@@ -35,7 +35,7 @@ export default function Contact() {
     <Section id="contact">
       <SectionHeading
         title="Get in Touch"
-        subtitle="Have a project in mind or just want to say hello? I'd love to hear from you."
+        subtitle="Have a project or opportunity in mind? I'd love to hear from you."
       />
 
       <div className="grid gap-12 lg:grid-cols-5">

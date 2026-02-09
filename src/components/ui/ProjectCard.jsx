@@ -36,7 +36,7 @@ export default function ProjectCard({ project, index }) {
                     key={i}
                     src={img}
                     alt={`${project.title} screenshot ${i + 1}`}
-                    className={`absolute inset-0 h-full w-full object-cover transition-opacity duration-500 ${
+                    className={`absolute inset-0 h-full w-full ${project.imageContain ? 'object-contain' : 'object-cover'} transition-opacity duration-500 ${
                       i === currentImage ? 'opacity-100' : 'opacity-0'
                     }`}
                   />
