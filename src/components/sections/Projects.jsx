@@ -8,7 +8,7 @@ export default function Projects() {
     <Section id="projects">
       <SectionHeading
         title="Projects"
-        subtitle="A selection of things I've built recently."
+        subtitle="A selection of things I've built recently. If the repository is private, contact me for access."
       />
 
       <div className="grid gap-6 sm:grid-cols-2">

@@ -14,6 +14,6 @@ export const skillCategories = [
   },
   {
     title: 'Other',
-    skills: ['CIP Regulation', 'Agile', 'WaterFall', 'Autodesk Vault Pro SDK', 'ServiceNow API', 'Claude Code', 'OpenAI Codex'],
+    skills: ['CIP Regulation', 'Agile', 'WaterFall', 'Autodesk Vault Pro SDK', 'ServiceNow API', 'Claude Code', 'OpenAI Codex', 'Stripe API'],
   },
 ]
