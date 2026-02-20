@@ -1,7 +1,7 @@
 export const personal = {
   name: 'Jared Dalessandro',
   role: 'Programmer/Analyst',
-  tagline: 'I want to learn everything, so I can build anything.',
+  tagline: '',
   bio: `I'm a software engineer with extensive experience in developing, integrating, and supporting applications. 
   I have consistently delivered high-quality solutions that enhance productivity, efficiency, and security.
   My goal is to exploit my technical expertise and project management experience to contribute to 
