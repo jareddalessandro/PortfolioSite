@@ -3,7 +3,7 @@ export const projects = [
     id: 1,
     title: 'NominalFactor',
     description:
-      'A full-stack web app that provides multi-factor stock intelligence and allows users to create custom algorithms for stock valuation and analysis. Provides fundamental, technical, earnings analysis and AI macro economic analysis for stocks. Built with a React frontend and a Python Flask backend, utilizing the Alpha Vantage API for stock data and OpenAI API for AI analysis.',
+      'A full-stack web app that provides multi-factor stock intelligence and allows users to create custom algorithms for stock valuation and analysis. Provides fundamental, technical, earnings analysis and AI macro economic analysis for stocks.',
     tech: ['React', 'Python', 'Postgres', 'Docker', 'OpenAI API', 'Stripe API'],
     github: 'https://github.com/Nominal-Technologies-LLC/NominalFactor',
     demo: null,
