@@ -4,9 +4,9 @@ export const projects = [
     title: 'NominalFactor',
     description:
       'A full-stack web app that provides multi-factor stock intelligence and allows users to create custom algorithms for stock valuation and analysis. Provides fundamental, technical, earnings analysis and AI macro economic analysis for stocks.',
-    tech: ['React', 'Python', 'Postgres', 'Docker', 'OpenAI API', 'Stripe API'],
+    tech: ['React', 'Python', 'Postgres', 'Docker', 'OpenAI API', 'Stripe API', 'AWS'],
     github: 'https://github.com/Nominal-Technologies-LLC/NominalFactor',
-    demo: null,
+    demo: 'https://nominalfactor.com/',
     images: [
       '/nominalfactor/landingpageSmall.png',
       '/nominalfactor/earnings.png',
@@ -30,6 +30,7 @@ export const projects = [
       '/stasisdrive/dashboard1.png',
       '/stasisdrive/launchpage2.png',
     ],
+    imageContain: true,
     gradient: 'from-cyan-500/20 to-blue-500/20', // Fallback if no images
   },
   {
@@ -45,6 +46,7 @@ export const projects = [
       '/comparefi/results1.png',
       '/comparefi/results4.png'
     ],
+    imageContain: true,
     gradient: 'from-purple-500/20 to-pink-500/20',
   },
 

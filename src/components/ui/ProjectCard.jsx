@@ -125,10 +125,10 @@ export default function ProjectCard({ project, index }) {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-1.5 text-sm text-text-muted transition-colors hover:text-accent"
-                aria-label={`View ${project.title} live demo`}
+                aria-label={`View ${project.title} live app`}
               >
                 <FiExternalLink size={16} />
-                Demo
+                App
               </a>
             )}
           </div>
