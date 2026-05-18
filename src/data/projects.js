@@ -1,6 +1,24 @@
 export const projects = [
   {
     id: 1,
+    title: 'NominalFactor',
+    description:
+      'A full-stack web app that provides multi-factor stock intelligence and allows users to create custom algorithms for stock valuation and analysis. Provides fundamental, technical, earnings analysis and AI macro economic analysis for stocks. Built with a React frontend and a Python Flask backend, utilizing the Alpha Vantage API for stock data and OpenAI API for AI analysis.',
+    tech: ['React', 'Python', 'Postgres', 'Docker', 'OpenAI API', 'Stripe API'],
+    github: 'https://github.com/Nominal-Technologies-LLC/NominalFactor',
+    demo: null,
+    images: [
+      '/nominalfactor/landingpageSmall.png',
+      '/nominalfactor/earnings.png',
+      '/nominalfactor/overview.png',
+      '/nominalfactor/technicals.png',
+      '/nominalfactor/fundamental.png'
+    ],
+    imageContain: true,
+    gradient: 'from-green-500/20 to-emerald-500/20',
+  },
+  {
+    id: 2,
     title: 'StasisDrive',
     description:
       'A full-stack permament storage solution for files and documents making use of the Arweave blockchain. This app abstracts away the complexity of crypto world and provides a user-friendly interface for uploading and downloading files.',
@@ -15,7 +33,7 @@ export const projects = [
     gradient: 'from-cyan-500/20 to-blue-500/20', // Fallback if no images
   },
   {
-    id: 2,
+    id: 3,
     title: 'CompareFi',
     description:
       'A full-stack webapp enabling users to compare their financial metrics with that of their demographic and geographic peers, making use of the Federal Reserve API and the annual Census data and a custom made ingestion engine to parse and store the data in a SQL Server database.',
@@ -29,22 +47,7 @@ export const projects = [
     ],
     gradient: 'from-purple-500/20 to-pink-500/20',
   },
-  {
-    id: 3,
-    title: 'RecipeMe',
-    description:
-      'A Flutter cross-platform mobile app that allow users to enter their favorite printed or online recipes and have them parsed and stored locally. ',
-    tech: ['Flutter', 'Dart'],
-    github: 'https://github.com/jareddalessandro/RecipeMe',
-    demo: null,
-    images: [
-      '/recipeme/Screenshot_1770012827.png',
-      '/recipeme/Screenshot_1770012839.png',
-      '/recipeme/Screenshot_1770012848.png',
-    ],
-    imageContain: true,
-    gradient: 'from-green-500/20 to-emerald-500/20',
-  },
+
   {
     id: 4,
     title: 'Stock Trading Bot',
