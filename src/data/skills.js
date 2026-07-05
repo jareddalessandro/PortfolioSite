@@ -1,19 +1,26 @@
 export const skillCategories = [
   {
-    title: 'Languages / Frameworks',
-    skills: ['TypeScript', 'Python', 'Java', 'C#', 'SQL', 'PowerShell', 'React', 'Blazor', 'MudBlazor', 'Tailwind CSS', 'Flutter'],
-  },
-
-  {
-    title: 'Backend',
-    skills: ['C#', 'Django', 'REST APIs', 'FastAPI', 'PostgreSQL', 'Oracle', 'SQL Server'],
+    title: 'Languages',
+    skills: ['Python', 'Java', 'C#', 'SQL', 'PowerShell', 'TypeScript'],
   },
   {
-    title: 'Tools & Platforms',
-    skills: ['Git', 'Docker', 'AWS', 'Toad', 'Azure', 'Jenkins CI/CD', 'Ollama', 'Splunk', 'VSphere'],
+    title: 'Frameworks & Libraries',
+    skills: ['.NET', 'React', 'Blazor', 'MudBlazor', 'Flutter', 'Django', 'FastAPI', 'Spring', 'Autodesk Vault Pro SDK'],
   },
   {
-    title: 'Other',
-    skills: ['CIP Regulation', 'Agile', 'WaterFall', 'Autodesk Vault Pro SDK', 'ServiceNow API', 'Claude Code', 'OpenAI Codex', 'Stripe API'],
+    title: 'Databases',
+    skills: ['PostgreSQL', 'Oracle', 'SQL Server'],
+  },
+  {
+    title: 'Cloud & DevOps',
+    skills: ['AWS', 'Microsoft Azure', 'Git', 'Docker', 'Jenkins CI/CD'],
+  },
+  {
+    title: 'AI / LLM',
+    skills: ['Ollama', 'Palantir Foundry', 'Claude Code', 'OpenAI Codex', 'OpenAI API'],
+  },
+  {
+    title: 'Platforms & Practices',
+    skills: ['Splunk', 'vSphere', 'ServiceNow', 'Windows Server', 'Agile', 'Project Management', 'CIP Regulation', 'Stripe API'],
   },
 ]
