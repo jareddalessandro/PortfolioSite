@@ -19,9 +19,13 @@ export default function About() {
         {/* Bio */}
         <AnimatedElement variant="fadeLeft">
           <div className="space-y-4 text-text-secondary leading-relaxed">
-            {personal.bio.split('\n').map((paragraph, i) => (
-              <p key={i}>{paragraph.trim()}</p>
-            ))}
+            {personal.bio
+              .split(/\n\s*\n/)
+              .map((paragraph) => paragraph.replace(/\s+/g, ' ').trim())
+              .filter(Boolean)
+              .map((paragraph, i) => (
+                <p key={i}>{paragraph}</p>
+              ))}
           </div>
         </AnimatedElement>
 

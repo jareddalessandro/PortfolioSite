@@ -2,11 +2,13 @@ export const personal = {
   name: 'Jared Dalessandro',
   role: 'Programmer/Analyst',
   tagline: '',
-  bio: `I'm a technical lead with extensive experience in developing, integrating, and supporting applications.   
-  My goal is to apply my technical expertise and project management experience to contribute to 
+  bio: `I'm a technical lead with extensive experience in developing, integrating, and supporting applications.
+  My goal is to apply my technical expertise and project management experience to contribute to
   innovative projects that create real impact and to be as useful as possible to my team.
-  Currently, I work on the Engineering Applications team at Tucson Electric Power, where I develop, maintain, and implement applications 
-  for the company's various Engineering, Environmental, T&D, and Fleet departments`,
+
+  Currently, I work on the Engineering Applications team at Tucson Electric Power, where I develop,
+  maintain, and implement applications for the company's various Engineering, Environmental, T&D,
+  and Fleet departments.`,
   email: 'jareddalessandro1@gmail.com',
   location: 'AZ, United States',
   resumeUrl: '/resume.pdf',
